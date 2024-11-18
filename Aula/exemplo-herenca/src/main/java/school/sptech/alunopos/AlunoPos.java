@@ -1,6 +1,19 @@
-public class AlunoPos extends Aluno{
+package school.sptech.alunopos;
+
+import school.sptech.Aluno;
+
+public class AlunoPos extends Aluno {
     private Double notaTcc;
 
+    /*
+    Aluno é SUPERCLASSE (ou Classe Base) de AlunoPos
+    AlunoPos é SUBCLASSE (ou Classe Derivada) de Aluno
+
+    Uma subclasse herda tudo que é public, protected ou default
+    default (ou package) é quando não tem nem private, nem public e nem protected
+
+    Obs.: Classe Base e Classe Derivada geralmente é usada na linguagem C# -> Microsoft <<<<---- Avanade
+    */
     public AlunoPos(String nome, Double nota1, Double nota2, Double nota3) {
         // Classe mãe = Superclass[super] (Quem possui o que será herdado)
         // Classe filha = Subclass (Quem herda a classe)

@@ -1,3 +1,5 @@
+package school.sptech;
+
 public class Aluno {
     // Ordem da criação da classe:
     // Atributos -> Construtor -> Métodos -> Getter/Setter -> toString
@@ -12,6 +14,7 @@ public class Aluno {
         this.nota2 = nota2;
         this.nota3 = nota3;
     }
+    public Aluno() {}
 
     public Double calcularMedia() {
         return (nota1+nota2+nota3)/3.0;
